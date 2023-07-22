@@ -1,4 +1,4 @@
-package cn.wenhe9.pinda.core.config.swagger.value;
+package cn.wenhe9.pinda.core.swagger.value;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

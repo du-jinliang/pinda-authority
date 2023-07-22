@@ -4,11 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee21adb8-75b8-471e-9caf-d1971690c75d" name="Changes" comment="test(sub): &quot;测试github&quot;">
-      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/xss/XssFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/xss/XssProperties.java" afterDir="false" />
+    <list default="true" id="ee21adb8-75b8-471e-9caf-d1971690c75d" name="Changes" comment="feat(core): &quot;xss过滤器，弃用antiSamy，使用替换标签括号的方式&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/log/annotation/OptLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/log/aspect/OptLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/log/entity/OptLogDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/log/enums/LogTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/log/event/OptLogEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/log/event/OptLogEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/result/ResultResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/result/ResultResponseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/utils/CusAccessObjectUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/utils/LogInfoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-core/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/Swagger2Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/swagger/Swagger2Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/SwaggerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/swagger/SwaggerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/swagger/value/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/swagger/value/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/DocketInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/swagger/value/DocketInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/GlobalOperationParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/swagger/value/GlobalOperationParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/Markdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/swagger/value/Markdown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +117,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -124,49 +149,53 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/code/pinda-authority/pd-gateway/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;691679936aaf9591d4d384aa9c91c4b1&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "F:/code/pinda-authority/pd-core/src/main/java/cn/wenhe9/pinda/core/result",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "50fd1b5fd7b80eaf11dd3cbe7658d1b2",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\pinda-authority\pd-core\src\main\java\cn\wenhe9\pinda\core\result" />
       <recent name="F:\code\pinda-authority\pd-gateway\src\main\resources" />
       <recent name="F:\code\pinda-authority\pd-auth\auth-service\src\main\java\cn\wenhe9\pinda\auth" />
       <recent name="F:\code\pinda-authority\pd-core\src\main\java\cn\wenhe9\pinda\core\config\swagger" />
       <recent name="F:\code\pinda-authority" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.wenhe9.pinda.core.utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -254,6 +283,18 @@
       <workItem from="1689069677170" duration="191000" />
       <workItem from="1689069892704" duration="1894000" />
       <workItem from="1689088345315" duration="2526000" />
+      <workItem from="1689092949662" duration="839000" />
+      <workItem from="1689250045708" duration="1351000" />
+      <workItem from="1689256185402" duration="375000" />
+      <workItem from="1689256584582" duration="47000" />
+      <workItem from="1689256651734" duration="1627000" />
+      <workItem from="1689428944131" duration="92000" />
+      <workItem from="1689429348415" duration="1855000" />
+      <workItem from="1689517674138" duration="594000" />
+      <workItem from="1689942570476" duration="1342000" />
+      <workItem from="1689945305834" duration="6276000" />
+      <workItem from="1689951663809" duration="602000" />
+      <workItem from="1690026970939" duration="7864000" />
     </task>
     <task id="LOCAL-00001" summary="feat(sub): &quot;使用kotlin作为dsl的gradle构建项目，搭建微开发服务环境&quot;">
       <option name="closed" value="true" />
@@ -359,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689069502949</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat(core): &quot;xss过滤器，弃用antiSamy，使用替换标签括号的方式&quot;">
+      <option name="closed" value="true" />
+      <created>1689093405625</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689093405625</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,17 +441,7 @@
     <MESSAGE value="&quot;feat(sub): 更换knife4j依赖，使用bom&quot;" />
     <MESSAGE value="&quot;feat(sub): ++&quot;" />
     <MESSAGE value="test(sub): &quot;测试github&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="test(sub): &quot;测试github&quot;" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/Swagger2Configuration.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="feat(core): &quot;xss过滤器，弃用antiSamy，使用替换标签括号的方式&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(core): &quot;xss过滤器，弃用antiSamy，使用替换标签括号的方式&quot;" />
   </component>
 </project>

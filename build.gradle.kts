@@ -45,7 +45,7 @@ buildscript {
     extra["jjwtVersion"] = "4.4.0"
     extra["qcloudsmsVersion"] = "1.0.6"
     extra["bceJavaSdkVersion"] = "0.10.262"
-    extra["hutoolVersion"] = "5.8.19"
+    extra["hutoolVersion"] = "5.8.20"
     extra["antisamyVersion"] = "1.7.3"
     extra["ip2regionVersion"] = "2.7.0"
     extra["bitwalkerVersion"] = "1.21"

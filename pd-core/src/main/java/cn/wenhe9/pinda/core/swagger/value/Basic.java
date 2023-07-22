@@ -1,25 +1,30 @@
-package cn.wenhe9.pinda.core.config.swagger.value;
+package cn.wenhe9.pinda.core.swagger.value;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @description: 文档
+ * @description: 认证信息
  * @author: DuJinliang
  * @create: 2023/7/4
  */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Markdown {
+public class Basic {
     /**
-     * 是否启用 markdown
+     * 是否开启认证
      */
     private Boolean enable = false;
 
     /**
-     * 文档地址
+     * 用户名
      */
-    private String basePath = "classpath:markdown/*";
+    private String username = "wenhe9";
+
+    /**
+     * 密码
+     */
+    private String password = "wenhe9";
 }

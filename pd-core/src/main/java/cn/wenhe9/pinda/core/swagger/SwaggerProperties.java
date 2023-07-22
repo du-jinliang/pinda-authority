@@ -1,6 +1,6 @@
-package cn.wenhe9.pinda.core.config.swagger;
+package cn.wenhe9.pinda.core.swagger;
 
-import cn.wenhe9.pinda.core.config.swagger.value.*;
+import cn.wenhe9.pinda.core.swagger.value.*;
 import lombok.*;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

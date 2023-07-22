@@ -9,6 +9,7 @@ dependencies {
     api("org.springframework.boot:spring-boot-starter-web") {
         exclude("org.springframework.boot", "spring-boot-starter-tomcat")
     }
+    api("org.aspectj:aspectjrt")
     api("org.springframework.boot:spring-boot-starter-undertow")
     api("org.springframework.cloud:spring-cloud-starter-bootstrap")
     api("com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery")

@@ -1,7 +1,7 @@
-package cn.wenhe9.pinda.core.config.swagger;
+package cn.wenhe9.pinda.core.swagger;
 
-import cn.wenhe9.pinda.core.config.swagger.value.DocketInfo;
-import cn.wenhe9.pinda.core.config.swagger.value.GlobalOperationParameter;
+import cn.wenhe9.pinda.core.swagger.value.DocketInfo;
+import cn.wenhe9.pinda.core.swagger.value.GlobalOperationParameter;
 import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
 import com.github.xiaoymin.knife4j.spring.configuration.Knife4jHttpBasic;
 import com.github.xiaoymin.knife4j.spring.configuration.Knife4jProperties;
